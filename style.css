@@ -1,0 +1,159 @@
+body{ 
+    background:white;
+    margin:0 auto;
+    padding:0;
+    width: 1020px;
+}
+
+a.logo{
+    float:left;
+}
+
+a.logo img{
+    width: 400px;
+}
+
+div.search-box{
+    float:right;
+    width: 350px;
+    height: 50px;
+    border-radius: 0px 0px 4px 4px;
+    background: #343434;
+    margin-right: 25px;
+    
+}
+
+div.search-box input[type=search]{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    -webkit-appearance: initial;
+    display:block;
+    float:left;
+    font-size: 16px;
+}
+
+div.search-box button{
+	display:block;
+	width: 70px;
+	height: 30px;
+	color: #343434;
+	background:#f15922;
+	border: 2px outset #e34521;
+	color: white;
+	margin-right: 10px;
+	border-radius: 4px;
+	float:right;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+div.lookup{
+    background: #343434;
+    width: 300px;
+    height: 220px;
+    padding: 15px 30px;
+    float:left;
+}
+
+div.lookup select{
+    width: 90%;
+    margin: 10px 0;
+    display:block;
+}
+
+img.banner{
+    float:right;
+    width: 660px;
+}
+
+div.part{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+div.clearfix{
+    clear:both;
+}
+
+div.img-container{
+    float:left;
+}
+
+div.img-container img{
+    width: 200px;
+    border: 1px solid #f15922;
+    box-shadow: 3px 3px 3px #f15922;
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;   
+            transition: all 0.3s ease-in-out;
+}
+
+div.img-container img:hover{
+    box-shadow: 3px 3px 3px #343434;
+    border: 1px solid #343434;
+    -webkit-transform: rotate(-360deg);
+       -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+         -o-transform: rotate(-360deg);       
+            transform: rotate(-360deg);
+}
+
+div.img-container div.sub-images{
+    margin: 10px 0;
+}
+
+div.img-container div.sub-images img{
+    width: 50px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px #f15922;
+    -webkit-transition: all 1.8s ease-in-out;
+}
+
+div.attributes{
+    float:left;
+    margin-left: 20px;
+}
+
+div.pricing{
+    float:right;
+    height: 200px;
+    border-left: 1px solid #f1f1f1;
+    padding-left: 15px;
+}
+
+div.pricing span.price{
+    font-size: 24px;
+    color: #f15922;
+    display:block;
+    text-align:center;
+    margin-top: 25px;
+}
+
+div.pricing button{
+    display:block;
+    cursor:pointer;
+    width: 140px;
+    margin-top: 20px;
+    border: 1px outset #f15922;
+    color:#343434;
+    font-size: 26px;
+    background:#f15922;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;   
+            transition: all 0.3s ease-in-out;    
+}
+
+div.pricing button:hover{
+    background: #343434;
+    border: 1px outset #91b51b;
+    color: #f15922;
+}
